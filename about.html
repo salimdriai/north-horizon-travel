@@ -1,141 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        /* General Styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Replace 'background.jpg' with the path to your image */
+      }
 
-        /* Navbar Styling */
-        .navbar {
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-            padding: 1em;
-        }
+      /* Navbar Styling */
+      .navbar {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 1em;
+      }
+      .navbar h6 {
+        margin-right: 10em;
+      }
 
-        .navbar a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1em;
-        }
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1em;
+      }
 
-        .navbar a:hover {
-            text-decoration: underline;
-        }
+      .navbar a:hover {
+        text-decoration: underline;
+      }
 
-        /* About Us Section */
-        .about-section {
-            padding: 2em;
-            text-align: center;
-        }
+      /* About Us Section */
+      .about-section {
+        padding: 2em;
+        text-align: center;
+      }
 
-        .about-section h1 {
-            font-size: 2.5em;
-            color: #333;
-        }
+      .about-section h1 {
+        font-size: 2.5em;
+        color: #fff;
+      }
 
-        .about-section p {
-            font-size: 1.2em;
-            max-width: 700px;
-            margin: 0 auto;
-            line-height: 1.6em;
-        }
+      .about-section p {
+        font-size: 1.2em;
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.6em;
+        color: #fff;
+      }
 
-        /* Team Section */
-        .team-section {
-            padding: 2em;
-            background-color: #e9ecef;
-        }
+      /* Team Section */
+      .team-section {
+        padding: 2em;
+      }
 
-        .team-section h2 {
-            font-size: 2em;
-            text-align: center;
-            color: #333;
-        }
+      .team-section h2 {
+        font-size: 2em;
+        text-align: center;
+        color: #fff;
+      }
 
-        .team-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 1.5em;
-            margin-top: 1em;
-        }
+      .team-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5em;
+        margin-top: 1em;
+      }
 
-        .team-member {
-            background-color: #fff;
-            padding: 1em;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 200px;
-            text-align: center;
-        }
+      .team-member {
+        background-color: #fff;
+        padding: 1em;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        text-align: center;
+      }
 
-        .team-member h3 {
-            font-size: 1.2em;
-            color: #007BFF;
-        }
+      .team-member h3 {
+        font-size: 1.2em;
+        color: #007bff;
+      }
 
-        .team-member p {
-            font-size: 1em;
-            color: #555;
-        }
+      .team-member p {
+        font-size: 1em;
+        color: #555;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar Section -->
+
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
+      <h6>Travel Horizon</h6>
+      <a href="travel_recommendation.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
     </nav>
 
     <!-- About Us Section -->
     <section class="about-section">
-        <h1>About Us</h1>
-        <p>We are a forward-thinking company focused on delivering high-quality solutions that cater to our clients' needs. Our mission is to create impactful and user-centered experiences that make a difference.</p>
+      <h1>About Us</h1>
+      <p>
+        We are a forward-thinking company focused on delivering high-quality
+        solutions that cater to our clients' needs. Our mission is to create
+        impactful and user-centered experiences that make a difference.
+      </p>
     </section>
 
     <!-- Team Section -->
     <section class="team-section">
-        <h2>Our Team</h2>
-        <div class="team-container">
-            <!-- Team Member 1 -->
-            <div class="team-member">
-                <h3>John Doe</h3>
-                <p>CEO & Founder</p>
-            </div>
-            
-            <!-- Team Member 2 -->
-            <div class="team-member">
-                <h3>Jane Smith</h3>
-                <p>Chief Operating Officer</p>
-            </div>
-            
-            <!-- Team Member 3 -->
-            <div class="team-member">
-                <h3>Emily Johnson</h3>
-                <p>Lead Developer</p>
-            </div>
-
-            <!-- Team Member 4 -->
-            <div class="team-member">
-                <h3>Michael Brown</h3>
-                <p>Head of Marketing</p>
-            </div>
-
-            <!-- Add more team members as needed -->
+      <h2>Our Team</h2>
+      <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+          <h3>John Doe</h3>
+          <p>CEO & Founder</p>
         </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+          <h3>Jane Smith</h3>
+          <p>Chief Operating Officer</p>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+          <h3>Emily Johnson</h3>
+          <p>Lead Developer</p>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member">
+          <h3>Michael Brown</h3>
+          <p>Head of Marketing</p>
+        </div>
+
+        <!-- Add more team members as needed -->
+      </div>
     </section>
-</body>
+  </body>
 </html>
